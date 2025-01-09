@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FooterSection() {
   return (
@@ -8,7 +9,14 @@ export default function FooterSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1 - Brand Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Giras Jawa Aluminium</h3>
+            <Image
+              src="/images/logofooter.webp"
+              alt={`Sample2`}
+              width={192}
+              height={192}
+              objectFit="cover"
+              className="mb-3"
+            />
             <p className="text-gray-200">
               Solusi terbaik untuk kebutuhan aluminium dan kitchen set Anda.
               Kami siap memberikan produk berkualitas tinggi dengan pelayanan

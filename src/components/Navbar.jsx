@@ -17,7 +17,7 @@ export default function Navbar() {
   };
 
   const whatsappText =
-    "https://wa.me/6287774370779?text=Hello%0ADengan%20Giras%20Aluminium%20%3F%0ASaya%20tertarik%20ingin%20tahu%20info%20lebih%20detail%20tentang%20produk%20anda";
+    "https://wa.me/6287774370779?text=Hello%0ADengan%20Giras%20Jaya%20Aluminium%20%3F%0ASaya%20tertarik%20ingin%20tahu%20info%20lebih%20detail%20tentang%20produk%20anda";
 
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">

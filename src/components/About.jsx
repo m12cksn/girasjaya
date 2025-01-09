@@ -121,7 +121,7 @@ export default function WhatWeDoSection() {
 
       <div className="flex lg:pt-12 md:pt-10 pt-8 gap-5 justify-center">
         <Link
-          href="https://wa.me/6287774370779?text=Hello%0ADengan%20Giras%20Aluminium%20%3F%0ASaya%20tertarik%20ingin%20tahu%20info%20lebih%20detail%20tentang%20produk%20anda.
+          href="https://wa.me/6287774370779?text=Hello%0ADengan%20Giras%20Jaya%20Aluminium%20%3F%0ASaya%20tertarik%20ingin%20tahu%20info%20lebih%20detail%20tentang%20produk%20anda.
 "
           className="bg-blue-900 py-3 px-8 shadow-md rounded-md text-slate-50 hover:bg-slate-50 hover:text-blue-900 transition-all duration-300 ease-in-out"
         >

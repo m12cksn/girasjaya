@@ -17,10 +17,10 @@ export default function ShortStorySection() {
         {/* Left Side - Text */}
         <div className="lg:w-1/2  lg:text-left">
           <h2 className="text-3xl sm:text-4xl font-bold text-blue-700 mb-4">
-            Cerita Singkat Kami
+            Tentang Kami
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            Giras Jawa Aluminium hadir dengan misi memberikan solusi terbaik
+            Giras Jaya Aluminium hadir dengan misi memberikan solusi terbaik
             untuk kebutuhan aluminium dan kitchen set Anda. Dengan pengalaman
             bertahun-tahun, kami berkomitmen untuk menghadirkan produk
             berkualitas dan pelayanan profesional yang selalu memuaskan

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://girasjayaaluminium.com
+
+# Sitemaps
+Sitemap: https://girasjayaaluminium.com/sitemap.xml
