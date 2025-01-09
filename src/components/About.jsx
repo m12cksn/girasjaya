@@ -23,7 +23,7 @@ export default function WhatWeDoSection() {
             </h1>
           </div>
           <p className="basis-[50%] text-lg lg:text-xl text-slate-700 max-w-3xl lg:max-w-5xl xl:max-w-xl  mx-auto mb-5 xl:mb-0">
-            <span className="font-bold">Giras Jawa Aluminium </span> menawarkan
+            <span className="font-bold">Giras Jaya Aluminium </span> menawarkan
             pengerjaan Kusen Aluminium, Pintu ACP, Pintu Kaca, Pintu Expanda,
             Kitchen Set Aluminium, Partisi Kaca, Lemari Aluminium, Etalase,
             Kawat Nyamuk Magnet, Raling Tangga Kaca, Pintu dan Jendela Sleding

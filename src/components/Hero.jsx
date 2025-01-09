@@ -99,14 +99,21 @@ export default function Hero() {
               Spesialisasi Pemasangan Kitchen set & Aluminium
             </h1>
             <h1 className="text-4xl sm:text-[2.5rem] sm:leading-snug font-bold leading-snug mb-4 max-w-md sm:max-w-2xl xl:text-5xl text-slate-950">
-              Jasa Pembuatan <span className="text-blue-900"> Kitchen Set</span>{" "}
+              Jasa Pembuatan{" "}
+              <span className="text-blue-900">
+                {" "}
+                Kitchen Set Aluminium , Aluminium
+              </span>{" "}
               dan
-              <span className="text-blue-900"> Custom Aluminium </span>
+              <span className="text-blue-900"> Kaca </span>
             </h1>
             <p className="text-lg text-gray-600 mb-4 max-w-lg lg:text-3xl xl:text-xl">
               Percayakan Pembuatan{" "}
-              <span className="text-blue-900 font-bold"> Kitchen Set </span> dan
-              kebutuhan{" "}
+              <span className="text-blue-900 font-bold">
+                {" "}
+                Kitchen Set Aluminium, Kusen Aluminium{" "}
+              </span>{" "}
+              dan kebutuhan{" "}
               <span className="text-blue-900 font-bold">
                 {" "}
                 Custom Aluminium{" "}

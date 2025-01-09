@@ -4,12 +4,13 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Gallery from "@/components/Gallery";
 import ShortStorySection from "@/components/Story";
-import FooterSection from "@/components/Footer";
+import Tentang from "@/components/Tentang";
 
 export default function Home() {
   return (
     <div>
       <Hero />
+      <Tentang />
       <About />
       <GetPromo />
       <Gallery />

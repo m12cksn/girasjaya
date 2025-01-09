@@ -5,11 +5,13 @@ import Image from "next/image";
 import GetPromo from "@/components/GetPromo";
 
 const Gallery = () => {
-  const imagesPerPage = 9; // Jumlah gambar per halaman
-  const [images, setImages] = useState([]); // Data gambar
+  const imagesPerPage = 12; // Jumlah gambar per halaman
+  const [images, setImages] = useState([]); // Semua data gambar
+  const [filteredImages, setFilteredImages] = useState([]); // Data gambar yang difilter
   const [currentPage, setCurrentPage] = useState(1); // Halaman saat ini
   const [totalPages, setTotalPages] = useState(0);
   const [loading, setLoading] = useState(true); // Status loading
+  const [selectedCategory, setSelectedCategory] = useState("All"); // Kategori yang dipilih
 
   useEffect(() => {
     // Fetch data dari JSON lokal
@@ -20,6 +22,7 @@ const Gallery = () => {
         const data = await res.json();
         console.log("Fetched Data:", data); // Debug
         setImages(data);
+        setFilteredImages(data); // Awalnya semua gambar ditampilkan
         setTotalPages(Math.ceil(data.length / imagesPerPage));
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -31,8 +34,20 @@ const Gallery = () => {
     fetchImages();
   }, []);
 
+  useEffect(() => {
+    // Filter gambar berdasarkan kategori
+    const filtered =
+      selectedCategory === "All"
+        ? images
+        : images.filter((image) => image.category === selectedCategory);
+
+    setFilteredImages(filtered);
+    setCurrentPage(1); // Reset ke halaman pertama
+    setTotalPages(Math.ceil(filtered.length / imagesPerPage));
+  }, [selectedCategory, images]);
+
   // Gambar untuk halaman saat ini
-  const currentImages = images.slice(
+  const currentImages = filteredImages.slice(
     (currentPage - 1) * imagesPerPage,
     currentPage * imagesPerPage
   );
@@ -69,8 +84,32 @@ const Gallery = () => {
           </p>
         </div>
 
+        {/* Kategori Button */}
+        <div className="flex justify-center flex-wrap gap-4 mb-8">
+          {[
+            "All",
+            "Kitchen Set",
+            "Kusen Aluminium",
+            "Partisi Kaca",
+            "Pintu",
+            "Curtain Wall",
+          ].map((category) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`px-4 py-2 rounded-lg shadow-md ${
+                selectedCategory === category
+                  ? "bg-blue-600 text-white"
+                  : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
+
         {/* Grid Gambar */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
           {loading
             ? Array.from({ length: imagesPerPage }).map((_, index) => (
                 <div
@@ -89,7 +128,7 @@ const Gallery = () => {
                     width={300}
                     height={300}
                     objectFit="cover"
-                    className="object-cover aspect-square w-full"
+                    className="object-cover h-full w-full"
                   />
                   <div className="p-4">
                     <p className="text-gray-700 font-medium text-center">
@@ -101,7 +140,7 @@ const Gallery = () => {
         </div>
 
         {/* Pagination */}
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-10 flex-wrap gap-3">
           <button
             onClick={() => changePage(currentPage - 1)}
             disabled={currentPage === 1}

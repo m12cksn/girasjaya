@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { TiThMenu } from "react-icons/ti";
 import { IoCloseSharp } from "react-icons/io5";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -24,7 +25,13 @@ export default function Navbar() {
         {/* Logo */}
         <div className="text-2xl font-bold">
           <Link className="text-blue-900" href="/">
-            Giras Jaya Aluminium
+            <Image
+              src="/images/logo.webp"
+              alt={`Sample2`}
+              width={192}
+              height={192}
+              objectFit="cover"
+            />
           </Link>
         </div>
 
@@ -74,7 +81,7 @@ export default function Navbar() {
           </Link>
           <Link
             href={whatsappText}
-            className="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600"
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-teal-600"
           >
             Get a consult
           </Link>
@@ -127,7 +134,7 @@ export default function Navbar() {
           </Link>
           <Link
             href={whatsappText}
-            className="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600"
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-teal-600"
             onClick={closeMenu}
           >
             Get a consult

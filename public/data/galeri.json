@@ -1,29 +1,602 @@
 [
-  { "id": 1, "src": "/images/galery/galery1.webp", "alt": "Image 1" },
-  { "id": 2, "src": "/images/galery/galery2.webp", "alt": "Image 2" },
-  { "id": 3, "src": "/images/galery/galery3.webp", "alt": "Image 3" },
-  { "id": 4, "src": "/images/galery/galery4.webp", "alt": "Image 4" },
-  { "id": 5, "src": "/images/galery/galery5.webp", "alt": "Image 5" },
-  { "id": 6, "src": "/images/galery/galery6.webp", "alt": "Image 6" },
-  { "id": 7, "src": "/images/galery/galery7.webp", "alt": "Image 7" },
-  { "id": 8, "src": "/images/galery/galery8.webp", "alt": "Image 8" },
-  { "id": 9, "src": "/images/galery/galery9.webp", "alt": "Image 9" },
-  { "id": 10, "src": "/images/galery/galery10.webp", "alt": "Image 10" },
-  { "id": 1, "src": "/images/galery/galery11.webp", "alt": "Image 11" },
-  { "id": 2, "src": "/images/galery/galery12.webp", "alt": "Image 12" },
-  { "id": 3, "src": "/images/galery/galery13.webp", "alt": "Image 13" },
-  { "id": 4, "src": "/images/galery/galery14.webp", "alt": "Image 14" },
-  { "id": 5, "src": "/images/galery/galery15.webp", "alt": "Image 15" },
-  { "id": 6, "src": "/images/galery/galery16.webp", "alt": "Image 16" },
-  { "id": 7, "src": "/images/galery/galery17.webp", "alt": "Image 17" },
-  { "id": 8, "src": "/images/galery/galery18.webp", "alt": "Image 18" },
-  { "id": 9, "src": "/images/galery/galery19.webp", "alt": "Image 19" },
-  { "id": 1, "src": "/images/galery/galery20.webp", "alt": "Image 20" },
-  { "id": 2, "src": "/images/galery/galery21.webp", "alt": "Image 21" },
-  { "id": 3, "src": "/images/galery/galery22.webp", "alt": "Image 22" },
-  { "id": 4, "src": "/images/galery/galery23.webp", "alt": "Image 23" },
-  { "id": 5, "src": "/images/galery/galery24.webp", "alt": "Image 24" },
-  { "id": 6, "src": "/images/galery/galery25.webp", "alt": "Image 25" },
-  { "id": 7, "src": "/images/galery/galery26.webp", "alt": "Image 26" },
-  { "id": 8, "src": "/images/galery/galery27.webp", "alt": "Image 27" }
+  {
+    "id": 1,
+    "src": "/images/webp/galery1.webp",
+    "alt": "Gambar 1",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 2,
+    "src": "/images/webp/galery2.webp",
+    "alt": "Gambar 2",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 3,
+    "src": "/images/webp/galery3.webp",
+    "alt": "Gambar 3",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 4,
+    "src": "/images/webp/galery4.webp",
+    "alt": "Gambar 4",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 5,
+    "src": "/images/webp/galery5.webp",
+    "alt": "Gambar 5",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 6,
+    "src": "/images/webp/galery6.webp",
+    "alt": "Gambar 6",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 7,
+    "src": "/images/webp/galery7.webp",
+    "alt": "Gambar 7",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 8,
+    "src": "/images/webp/galery8.webp",
+    "alt": "Gambar 8",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 9,
+    "src": "/images/webp/galery9.webp",
+    "alt": "Gambar 9",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 10,
+    "src": "/images/webp/galery10.webp",
+    "alt": "Gambar 10",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 11,
+    "src": "/images/webp/galery11.webp",
+    "alt": "Gambar 11",
+    "category": "Curtain Wall"
+  },
+  {
+    "id": 12,
+    "src": "/images/webp/galery12.webp",
+    "alt": "Gambar 12",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 13,
+    "src": "/images/webp/galery13.webp",
+    "alt": "Gambar 13",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 14,
+    "src": "/images/webp/galery14.webp",
+    "alt": "Gambar 14",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 15,
+    "src": "/images/webp/galery15.webp",
+    "alt": "Gambar 15",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 16,
+    "src": "/images/webp/galery16.webp",
+    "alt": "Gambar 16",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 17,
+    "src": "/images/webp/galery17.webp",
+    "alt": "Gambar 17",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 18,
+    "src": "/images/webp/galery18.webp",
+    "alt": "Gambar 18",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 19,
+    "src": "/images/webp/galery19.webp",
+    "alt": "Gambar 19",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 20,
+    "src": "/images/webp/galery20.webp",
+    "alt": "Gambar 20",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 21,
+    "src": "/images/webp/galery21.webp",
+    "alt": "Gambar 21",
+    "category": "Kitchen Set"
+  },
+  {
+    "id": 22,
+    "src": "/images/webp/galery22.webp",
+    "alt": "Gambar 22",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 23,
+    "src": "/images/webp/galery23.webp",
+    "alt": "Gambar 23",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 24,
+    "src": "/images/webp/galery24.webp",
+    "alt": "Gambar 24",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 25,
+    "src": "/images/webp/galery25.webp",
+    "alt": "Gambar 25",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 26,
+    "src": "/images/webp/galery26.webp",
+    "alt": "Gambar 26",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 27,
+    "src": "/images/webp/galery27.webp",
+    "alt": "Gambar 27",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 28,
+    "src": "/images/webp/galery28.webp",
+    "alt": "Gambar 28",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 29,
+    "src": "/images/webp/galery29.webp",
+    "alt": "Gambar 29",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 30,
+    "src": "/images/webp/galery30.webp",
+    "alt": "Gambar 30",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 31,
+    "src": "/images/webp/galery31.webp",
+    "alt": "Gambar 31",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 32,
+    "src": "/images/webp/galery32.webp",
+    "alt": "Gambar 32",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 33,
+    "src": "/images/webp/galery33.webp",
+    "alt": "Gambar 33",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 34,
+    "src": "/images/webp/galery34.webp",
+    "alt": "Gambar 34",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 35,
+    "src": "/images/webp/galery35.webp",
+    "alt": "Gambar 35",
+    "category": "Kusen Aluminium"
+  },
+  {
+    "id": 36,
+    "src": "/images/webp/galery36.webp",
+    "alt": "Gambar 36",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 37,
+    "src": "/images/webp/galery37.webp",
+    "alt": "Gambar 37",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 38,
+    "src": "/images/webp/galery38.webp",
+    "alt": "Gambar 38",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 39,
+    "src": "/images/webp/galery39.webp",
+    "alt": "Gambar 39",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 40,
+    "src": "/images/webp/galery40.webp",
+    "alt": "Gambar 40",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 41,
+    "src": "/images/webp/galery41.webp",
+    "alt": "Gambar 41",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 42,
+    "src": "/images/webp/galery42.webp",
+    "alt": "Gambar 42",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 43,
+    "src": "/images/webp/galery43.webp",
+    "alt": "Gambar 43",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 44,
+    "src": "/images/webp/galery44.webp",
+    "alt": "Gambar 44",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 45,
+    "src": "/images/webp/galery45.webp",
+    "alt": "Gambar 45",
+    "category": "Partisi Kaca"
+  },
+  {
+    "id": 46,
+    "src": "/images/webp/galery46.webp",
+    "alt": "Gambar 46",
+    "category": "Pintu"
+  },
+  {
+    "id": 47,
+    "src": "/images/webp/galery47.webp",
+    "alt": "Gambar 47",
+    "category": "Pintu"
+  },
+  {
+    "id": 48,
+    "src": "/images/webp/galery48.webp",
+    "alt": "Gambar 48",
+    "category": "Pintu"
+  },
+  {
+    "id": 49,
+    "src": "/images/webp/galery49.webp",
+    "alt": "Gambar 49",
+    "category": "Pintu"
+  },
+  {
+    "id": 50,
+    "src": "/images/webp/galery50.webp",
+    "alt": "Gambar 50",
+    "category": "Pintu"
+  },
+  {
+    "id": 51,
+    "src": "/images/webp/galery51.webp",
+    "alt": "Gambar 51",
+    "category": "Pintu"
+  },
+  {
+    "id": 52,
+    "src": "/images/webp/galery52.webp",
+    "alt": "Gambar 52",
+    "category": "Pintu"
+  },
+  {
+    "id": 53,
+    "src": "/images/webp/galery53.webp",
+    "alt": "Gambar 53",
+    "category": "Pintu"
+  },
+  {
+    "id": 54,
+    "src": "/images/webp/galery54.webp",
+    "alt": "Gambar 54",
+    "category": "Pintu"
+  },
+  {
+    "id": 55,
+    "src": "/images/webp/galery55.webp",
+    "alt": "Gambar 55",
+    "category": "Pintu"
+  },
+  {
+    "id": 56,
+    "src": "/images/webp/galery56.webp",
+    "alt": "Gambar 56",
+    "category": "Pintu"
+  },
+  {
+    "id": 57,
+    "src": "/images/webp/galery57.webp",
+    "alt": "Gambar 57",
+    "category": "Pintu"
+  },
+  {
+    "id": 58,
+    "src": "/images/webp/galery58.webp",
+    "alt": "Gambar 58",
+    "category": "Pintu"
+  },
+  {
+    "id": 59,
+    "src": "/images/webp/galery59.webp",
+    "alt": "Gambar 59",
+    "category": "Pintu"
+  },
+  {
+    "id": 60,
+    "src": "/images/webp/galery60.webp",
+    "alt": "Gambar 60",
+    "category": "Pintu"
+  },
+  {
+    "id": 61,
+    "src": "/images/webp/galery61.webp",
+    "alt": "Gambar 61",
+    "category": "Pintu"
+  },
+  {
+    "id": 62,
+    "src": "/images/webp/galery62.webp",
+    "alt": "Gambar 62",
+    "category": "Pintu"
+  },
+  {
+    "id": 63,
+    "src": "/images/webp/galery63.webp",
+    "alt": "Gambar 63",
+    "category": "Pintu"
+  },
+  {
+    "id": 64,
+    "src": "/images/webp/galery64.webp",
+    "alt": "Gambar 64",
+    "category": "Pintu"
+  },
+  {
+    "id": 65,
+    "src": "/images/webp/galery65.webp",
+    "alt": "Gambar 65",
+    "category": "Pintu"
+  },
+  {
+    "id": 66,
+    "src": "/images/webp/galery66.webp",
+    "alt": "Gambar 66",
+    "category": "Pintu"
+  },
+  {
+    "id": 67,
+    "src": "/images/webp/galery67.webp",
+    "alt": "Gambar 67",
+    "category": "Pintu"
+  },
+  {
+    "id": 68,
+    "src": "/images/webp/galery68.webp",
+    "alt": "Gambar 68",
+    "category": "Pintu"
+  },
+  {
+    "id": 69,
+    "src": "/images/webp/galery69.webp",
+    "alt": "Gambar 69",
+    "category": "Pintu"
+  },
+  {
+    "id": 70,
+    "src": "/images/webp/galery70.webp",
+    "alt": "Gambar 70",
+    "category": "Pintu"
+  },
+  {
+    "id": 71,
+    "src": "/images/webp/galery71.webp",
+    "alt": "Gambar 71",
+    "category": "Pintu"
+  },
+  {
+    "id": 72,
+    "src": "/images/webp/galery72.webp",
+    "alt": "Gambar 72",
+    "category": "Pintu"
+  },
+  {
+    "id": 73,
+    "src": "/images/webp/galery73.webp",
+    "alt": "Gambar 73",
+    "category": "Pintu"
+  },
+  {
+    "id": 74,
+    "src": "/images/webp/galery46.webp",
+    "alt": "Gambar 74",
+    "category": "Pintu"
+  },
+  {
+    "id": 75,
+    "src": "/images/webp/galery75.webp",
+    "alt": "Gambar 75",
+    "category": "Pintu"
+  },
+  {
+    "id": 76,
+    "src": "/images/webp/galery76.webp",
+    "alt": "Gambar 76",
+    "category": "Pintu"
+  },
+  {
+    "id": 77,
+    "src": "/images/webp/galery77.webp",
+    "alt": "Gambar 77",
+    "category": "Pintu"
+  },
+  {
+    "id": 78,
+    "src": "/images/webp/galery78.webp",
+    "alt": "Gambar 78",
+    "category": "Pintu"
+  },
+  {
+    "id": 79,
+    "src": "/images/webp/galery79.webp",
+    "alt": "Gambar 79",
+    "category": "Pintu"
+  },
+  {
+    "id": 80,
+    "src": "/images/webp/galery80.webp",
+    "alt": "Gambar 80",
+    "category": "Pintu"
+  },
+  {
+    "id": 81,
+    "src": "/images/webp/galery81.webp",
+    "alt": "Gambar 81",
+    "category": "Pintu"
+  },
+  {
+    "id": 82,
+    "src": "/images/webp/galery82.webp",
+    "alt": "Gambar 82",
+    "category": "Pintu"
+  },
+  {
+    "id": 83,
+    "src": "/images/webp/galery83.webp",
+    "alt": "Gambar 83",
+    "category": "Pintu"
+  },
+  {
+    "id": 84,
+    "src": "/images/webp/galery84.webp",
+    "alt": "Gambar 84",
+    "category": "Pintu"
+  },
+  {
+    "id": 85,
+    "src": "/images/webp/galery85.webp",
+    "alt": "Gambar 85",
+    "category": "Pintu"
+  },
+  {
+    "id": 86,
+    "src": "/images/webp/galery86.webp",
+    "alt": "Gambar 86",
+    "category": "Pintu"
+  },
+  {
+    "id": 87,
+    "src": "/images/webp/galery87.webp",
+    "alt": "Gambar 87",
+    "category": "Pintu"
+  },
+  {
+    "id": 88,
+    "src": "/images/webp/galery88.webp",
+    "alt": "Gambar 88",
+    "category": "Pintu"
+  },
+  {
+    "id": 89,
+    "src": "/images/webp/galery89.webp",
+    "alt": "Gambar 89",
+    "category": "Pintu"
+  },
+  {
+    "id": 90,
+    "src": "/images/webp/galery90.webp",
+    "alt": "Gambar 90",
+    "category": ""
+  },
+  {
+    "id": 91,
+    "src": "/images/webp/galery91.webp",
+    "alt": "Gambar 91",
+    "category": ""
+  },
+  {
+    "id": 92,
+    "src": "/images/webp/galery92.webp",
+    "alt": "Gambar 92",
+    "category": ""
+  },
+  {
+    "id": 93,
+    "src": "/images/webp/galery93.webp",
+    "alt": "Gambar 93",
+    "category": ""
+  },
+  {
+    "id": 94,
+    "src": "/images/webp/galery94.webp",
+    "alt": "Gambar 94",
+    "category": ""
+  },
+  {
+    "id": 95,
+    "src": "/images/webp/galery95.webp",
+    "alt": "Gambar 95",
+    "category": ""
+  },
+  {
+    "id": 96,
+    "src": "/images/webp/galery96.webp",
+    "alt": "Gambar 96",
+    "category": ""
+  },
+  {
+    "id": 97,
+    "src": "/images/webp/galery97.webp",
+    "alt": "Gambar 97",
+    "category": ""
+  },
+  {
+    "id": 98,
+    "src": "/images/webp/galery98.webp",
+    "alt": "Gambar 98",
+    "category": ""
+  },
+  {
+    "id": 99,
+    "src": "/images/webp/galery99.webp",
+    "alt": "Gambar 99",
+    "category": ""
+  },
+  {
+    "id": 100,
+    "src": "/images/webp/galery100.webp",
+    "alt": "Gambar 100",
+    "category": ""
+  }
 ]
