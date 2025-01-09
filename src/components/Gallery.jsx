@@ -69,9 +69,12 @@ export default function GallerySection() {
         </div>
       </div>
       <div className="flex lg:pt-12 md:pt-10 pt-8 gap-5 justify-center">
-        <button className="bg-blue-900 py-3 px-8 shadow-md rounded-md text-slate-50 hover:bg-slate-50 hover:text-blue-900 transition-all duration-300 ease-in-out">
+        <Link
+          href="/gallery"
+          className="bg-blue-900 py-3 px-8 shadow-md rounded-md text-slate-50 hover:bg-slate-50 hover:text-blue-900 transition-all duration-300 ease-in-out"
+        >
           Lihat Full Gallery
-        </button>
+        </Link>
       </div>
     </section>
   );

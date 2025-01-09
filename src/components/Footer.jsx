@@ -76,7 +76,7 @@ export default function FooterSection() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-300 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Giras Jawa Aluminium. Semua Hak
+            &copy; {new Date().getFullYear()} Giras Jaya Aluminium. Semua Hak
             Dilindungi.
           </p>
           <ul className="flex space-x-4 mt-4 md:mt-0">
